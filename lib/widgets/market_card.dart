@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class MarketCard extends StatelessWidget {
   final String title;
@@ -29,10 +28,7 @@ class MarketCard extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.bottomCenter,
             end: Alignment.topCenter,
-            colors: [
-              Color(0xFFEFF1F3), // Light Grey (Bottom)
-              Colors.white        // White (Top)
-            ],
+            colors: [Color(0xFFEFF1F3), Colors.white],
           ),
           borderRadius: BorderRadius.all(Radius.circular(12)),
         ),
@@ -71,7 +67,7 @@ class MarketCard extends StatelessWidget {
                   child: Image.asset(
                     "assets/chart.png",
                     fit: BoxFit.contain,
-                    width: 20, // Adjust the width to avoid overflow
+                    width: 20,
                   ),
                 ),
                 Image.asset(
@@ -85,20 +81,21 @@ class MarketCard extends StatelessWidget {
             ),
             Expanded(
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              
-                children: [
-                  Text('Open - $openTime',style: TextStyle(fontSize: 9),),
-                  Text('Close - $closeTime',style: TextStyle(fontSize: 9),),
-              ]
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Open - $openTime',
+                      style: TextStyle(fontSize: 9),
                     ),
+                    Text(
+                      'Close - $closeTime',
+                      style: TextStyle(fontSize: 9),
+                    ),
+                  ]),
             ),
-              ],
-
-            ),
-
+          ],
         ),
-
+      ),
     );
   }
 }

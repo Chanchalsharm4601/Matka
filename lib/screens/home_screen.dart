@@ -1,6 +1,4 @@
 import 'dart:convert';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:matka_user/widgets/market_card.dart';
@@ -48,8 +46,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
     int hour = int.parse(parts[0]);
     int minute = int.parse(parts[1]);
-
-    // Correct AM/PM conversion
     if (format == 'PM' && hour != 12) hour += 12;
     if (format == 'AM' && hour == 12) hour = 0;
 
