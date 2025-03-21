@@ -1,0 +1,46 @@
+{
+  "markets": [
+    {
+      "title": "Shridevi Morning",
+      "number": "240 - 67 - 124",
+      "openTime": "09:30 AM",
+      "closeTime": "10:30 AM"
+    },
+    {
+      "title": "Kalyan Morning",
+      "number": "240 - 67 - 124",
+      "openTime": "09:30 AM",
+      "closeTime": "10:30 AM"
+    },
+    {
+      "title": "Shridevi Morning",
+      "number": "240 - 67 - 124",
+      "openTime": "09:30 AM",
+      "closeTime": "09:45 AM"
+    },
+    {
+      "title": "Kalyan Morning",
+      "number": "240 - 67 - 124",
+      "openTime": "09:30 AM",
+      "closeTime": "10:30 pm"
+    },
+    {
+      "title": "Shridevi Morning",
+      "number": "240 - 67 - 124",
+      "openTime": "09:30 AM",
+      "closeTime": "10:30 AM"
+    },
+    {
+      "title": "Shridevi Morning",
+      "number": "240 - 67 - 124",
+      "openTime": "09:30 AM",
+      "closeTime": "10:30 AM"
+    },
+    {
+      "title": "Shridevi Morning",
+      "number": "240 - 67 - 124",
+      "openTime": "09:30 AM",
+      "closeTime": "10:30 AM"
+    }
+  ]
+}
